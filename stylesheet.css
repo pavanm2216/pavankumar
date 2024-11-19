@@ -683,7 +683,7 @@ section{
 }
 .btn-btn2 {
   text-decoration: none;
-  display: center;
+  display: inline-block;
   background-color: #4CAF50; /* Green */
   color: white;
   padding: 15px 32px;
@@ -691,7 +691,12 @@ section{
   border-radius: 5px;
   text-align: center;
 }
-
+.button-container {
+  display: flex;
+  justify-content: center; /* Horizontally center the button */
+  align-items: center;     /* Vertically center the button */
+  height: 100vh;           /* Make the container take the full height of the viewport */
+}
 .btn-btn2 button {
   background: transparent;
   border: none;
