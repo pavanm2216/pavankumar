@@ -681,6 +681,14 @@ section{
     margin-top:  -40px;
     display: block;
 }
+/* Center the button within the page */
+.button-container {
+  display: flex;
+  justify-content: center; /* Horizontally center the button */
+  align-items: center;     /* Vertically center the button */
+  height: 100vh;           /* Make the container take the full height of the viewport */
+}
+
 .btn-btn2 {
   text-decoration: none;
   display: inline-block;
@@ -691,12 +699,7 @@ section{
   border-radius: 5px;
   text-align: center;
 }
-.button-container {
-  display: flex;
-  justify-content: center; /* Horizontally center the button */
-  align-items: center;     /* Vertically center the button */
-  height: 100vh;           /* Make the container take the full height of the viewport */
-}
+
 .btn-btn2 button {
   background: transparent;
   border: none;
@@ -705,7 +708,6 @@ section{
   padding: 0;
   cursor: pointer;
 }
-
 
 
 @keyframes slideRight {
